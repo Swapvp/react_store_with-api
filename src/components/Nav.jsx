@@ -15,7 +15,7 @@ const Nav = () => {
     ).toFixed()},${(Math.random() * 255).toFixed()}, ${Math.random()})`;
   };
 
-  // console.log(randomColor());
+
 
   return (
     <nav className="w-1/4 bg-slate-300 h-screen p-4">
