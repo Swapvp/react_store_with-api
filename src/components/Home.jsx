@@ -18,7 +18,7 @@ const Home = () => {
       const { data } = await axios.get(`/products/category/${category}`);
       setFilteredProducts(data);
     } catch (e) {
-      console.log(e);
+      // console.log(e);
     }
   };
 

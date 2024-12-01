@@ -12,7 +12,7 @@ const Details = () => {
       const { data } = await axios.get(`/products/${id}`);
       setProduct(data);
     } catch (e) {
-      console.log(e);
+      // console.log(e);
     }
   };
 

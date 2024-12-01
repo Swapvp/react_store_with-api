@@ -11,7 +11,7 @@ const Context = ({ children }) => {
       const { data } = await axios("/Products");
       setProduct(data);
     } catch (e) {
-      console.log(e);
+      // console.log(e);
     }
   };
 
